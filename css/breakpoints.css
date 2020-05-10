@@ -1,0 +1,83 @@
+/* ====================== Breakpoints css ====================== */
+
+@media only screen and (max-width: 749px) {
+  #footer {
+    display: none;
+  }
+  #restaurants-list li {
+    max-width: 100%;
+  }
+
+  nav {
+    height: 85px;
+  }
+
+  @media only screen and (min-width: 750px) {
+    #restaurants-list li {
+      max-width: 45%;
+    }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    #restaurants-list li {
+      max-width: 300px;
+    }
+  }
+
+  .restInfo {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+  }
+
+  .restInfo header {
+    order: 0;
+    width: 100vw;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header nav {
+    order: 0;
+  }
+
+  header #breadcrumb {
+    order: 1;
+    width: 100vw;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .restInfo #map-container {
+    top: 150px;
+    position: relative;
+    height: 300px;
+    width: 100vw;
+  }
+
+  .restInfo #restaurant-container {
+    position: relative;
+    width: 100vw;
+    padding: 140px 5px 0 0;
+    margin: auto;
+    text-align: center;
+  }
+
+  .restInfo #reviews-container {
+    width: 100vw;
+    padding: 5px;
+    margin: auto;
+  }
+
+  #reviews-list {
+    width: 100vw;
+  }
+
+  #reviews-container h2 {
+    text-align: center;
+  }
+}
